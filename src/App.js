@@ -3,20 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="name">
+      <div className='App'>
+      <input  placeholder='Write a task' className="input" type="text"/>
+     <button className="button">create</button>
+     </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
       </header>
     </div>
   );
