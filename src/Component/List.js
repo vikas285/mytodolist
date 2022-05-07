@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const List = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <div className="List">
+      <input className="checkbox" type="checkbox"></input>
 
-export default List
+      <h3 className="text"></h3>
+      <button className="delete">edit</button>
+      <button className="edit">delete</button>
+    </div>
+  );
+};
+
+export default List;

@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2f3234;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,8 +43,34 @@ border-radius: 12px;
   background-color: #4e5056;
   height:34px ;
   width: 443px;
-  border: #4e5056;
+  border: 0px solid #4e5056;
   border-color:#4e5056 ;
+outline: none;
 
+}
+/* .input:focus{ border: 0px solid red;} */
+.List {
+  margin-top: 60px;
+ background-color: #4e5056 ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 684px;
+ border-radius: 13px;
+ height: 88px;
+}
+.text{
+  background-color: 4em5056;
+  width:513px ;
+  height: 28px;
+  color: antiquewhite;
+  
+
+}
+.checkbox{
+background-color: #4e5056;
+width :46px;
+height : 38px;
+color: #2f3234;
 
 }
