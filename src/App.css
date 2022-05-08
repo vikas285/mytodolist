@@ -1,8 +1,6 @@
-.name{
-  background-color: #2f3234;
+.name {
   display: flex;
   justify-content: center;
-
 }
 
 .App {
@@ -15,7 +13,6 @@
   align-items: center;
   margin-top: 60px;
   border-radius: 12px;
-
 }
 
 .App-header {
@@ -30,47 +27,53 @@
 }
 
 .button {
-background-color: #282c36;
-height: 35px;
-width: 71px;
-color: antiquewhite;
-border: #282C36;
-border-radius: 12px;
+  background-color: #282c36;
+  height: 35px;
+  width: 71px;
+  color: antiquewhite;
+  border: #282c36;
+  border-radius: 12px;
 }
 
-.input{
-
+.input {
   background-color: #4e5056;
-  height:34px ;
+  height: 34px;
   width: 443px;
   border: 0px solid #4e5056;
-  border-color:#4e5056 ;
-outline: none;
-
+  border-color: #4e5056;
+  outline: none;
 }
 /* .input:focus{ border: 0px solid red;} */
 .List {
-  margin-top: 60px;
- background-color: #4e5056 ;
- display: flex;
- justify-content: center;
- align-items: center;
- width: 684px;
- border-radius: 13px;
- height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.text{
+.text {
+  margin-left: 10px;
   background-color: 4em5056;
-  width:513px ;
-  height: 28px;
+  width: "70%";
   color: antiquewhite;
-  
-
 }
-.checkbox{
-background-color: #4e5056;
-width :46px;
-height : 38px;
-color: #2f3234;
+.checkbox {
+  background-color: #4e5056;
+  width: 30px;
+  height: 30px;
+  color: #2f3234;
+  border: 1px solid #fff;
+}
+.checkbox:hover {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  color: #2f3234;
+  border: 1px solid #fff;
+}
 
+.checkboxTrue {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  color: #2f3234;
+  border: 1px solid #fff;
 }
